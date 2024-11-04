@@ -23,6 +23,7 @@ Bold: 700
 Default: 1
 Small: 1.05
 Medium: 1.2
+Large: 1.8
 Paragraph default: 1.6
 
 - Letter spacing:
@@ -59,6 +60,8 @@ Medium: 11px
 
 
 --- 07 WHUTESPACE
+
+
 - Spacing system (px):
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -73,6 +76,7 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -80,6 +84,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 strong {
@@ -260,6 +265,7 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
